@@ -62,11 +62,11 @@
      layer.bindPopup(feature.properties.Title);
    }
    });
-   var runLayer = omnivore.csv('dataviz-enrollment-march6.xlsx', null, customLayer)
+   var runLayer = omnivore.csv('data.csv', null, customLayer)
    .on('ready', function() {
     map.fitBounds(runLayer.getBounds());
    }).addTo(map);
-   controlLayers.addOverlay(customLayer, 'Markers from dataviz-enrollment-march6.xlsx');
+   controlLayers.addOverlay(customLayer, 'Markers from data.csv');
 
   </script>
 </body>
