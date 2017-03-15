@@ -1,4 +1,4 @@
-student,birth year,gender,code,nation,,,,,
+student,birth year,gender,code,Address,Latitude,Longitude,Found Address,Match Quality,Source
 1,1996,male,IN,India,20.593684,78.96288,India,Match,Google
 2,1989,male,IN,India,20.593684,78.96288,India,Match,Google
 3,1993,male,PK,Pakistan,30.375321,69.345116,Pakistan,Match,Google
